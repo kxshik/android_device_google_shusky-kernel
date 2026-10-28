@@ -1,0 +1,6 @@
+fs_type=ext4
+use_dynamic_partition_size=true
+mount_point=vendor_dlkm
+selinux_fc=bazel-out/k8-fastbuild/bin/private/devices/google/shusky/shusky/sepolicy/vendor_dlkm_file_contexts
+ext_mkuserimg=mkuserimg_mke2fs
+ext4_share_dup_blocks=true
